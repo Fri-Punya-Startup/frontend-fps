@@ -8,6 +8,7 @@ import Styles from "../styles/footer/styles.module.css"
 export default function Footer(){
     return (
         <React.Fragment>
+            
             <div className={Styles.footer}>
                 <div className={Styles.containerFooter}>
                     <Container fluid>
