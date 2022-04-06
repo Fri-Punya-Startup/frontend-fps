@@ -5,7 +5,7 @@ import Navbar from "../components/navbar"
 export default () => (
     <React.Fragment>
         <Navbar/> 
-        <div className={styles.home}>
+        <div className="">
             <h1>Home</h1>
         </div>
         <Footer/>
