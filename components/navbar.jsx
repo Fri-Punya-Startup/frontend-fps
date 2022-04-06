@@ -2,11 +2,12 @@ import React from "react"
 import Link from 'next/link'
 import Styles from '../styles/navbar/navbar2.module.css'
 import Image from 'next/image'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Navbar(){
     return (
         <React.Fragment>
-          <header className={Styles.header}>
+          <div className={Styles.header}>
             <nav className={Styles.navbar}>
               <div className={Styles.logo}>
               </div>
@@ -38,8 +39,7 @@ export default function Navbar(){
                 <span className={Styles.bar}></span>
               </button>
             </nav>
-          </header>
-
+          </div>
         </React.Fragment>
     )       
 }
