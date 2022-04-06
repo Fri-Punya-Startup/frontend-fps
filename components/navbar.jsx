@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Navbar(){
     return (
+        
         <React.Fragment>
           <div className={Styles.header}>
             <nav className={Styles.navbar}>
