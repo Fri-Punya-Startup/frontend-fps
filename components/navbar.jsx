@@ -4,7 +4,7 @@ import Styles from '../styles/navbar/navbar2.module.css'
 import Image from 'next/image'
 
 
-export default function Navigation(){
+export default function Navbar(){
     return (
         <React.Fragment>
           <header className={Styles.header}>
