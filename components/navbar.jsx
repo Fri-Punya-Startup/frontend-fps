@@ -3,14 +3,12 @@ import Link from 'next/link'
 import Styles from '../styles/navbar/navbar2.module.css'
 import Image from 'next/image'
 
-
 export default function Navbar(){
     return (
         <React.Fragment>
           <header className={Styles.header}>
             <nav className={Styles.navbar}>
               <div className={Styles.logo}>
-                 {/* <Image src="/images/logoNavbar.svg" layout="fill"/> */}
               </div>
               <div className={Styles.lili}>
                   <ul className={Styles.navmenu}>
