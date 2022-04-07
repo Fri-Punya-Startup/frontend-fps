@@ -24,7 +24,7 @@ export default () => (
         <br></br>
 
         <Row>
-          <Col xs={6}>
+          <Col sm={6}>
             <h2>
               <span>|</span> Our Vision
             </h2>
@@ -37,8 +37,8 @@ export default () => (
               Revolusi Industri yang terus berkembang."
             </p>
           </Col>
-          <Col xs={1}></Col>
-          <Col xs={5}>
+          <Col sm={1}></Col>
+          <Col sm={5}>
             <h2>
               <span>|</span> Our Mission
             </h2>
@@ -70,7 +70,7 @@ export default () => (
         <div className={Styles.image}>
           <Row>
             <Col xs={1}></Col>
-            <Col xs={2}>
+            <Col xs={12} sm={2}>
               <div className={Styles.activityItem}>
                 <Image
                   src="/images/about/ceo.svg"
@@ -81,7 +81,7 @@ export default () => (
                 <h6>Jhon Doe</h6>
               </div>
             </Col>
-            <Col xs={2}>
+            <Col xs={12} sm={2}>
               <div className={Styles.activityItem}>
                 <Image
                   src="/images/about/coo.svg"
@@ -92,7 +92,7 @@ export default () => (
                 <h6>Jhon Doe</h6>
               </div>
             </Col>
-            <Col xs={2}>
+            <Col xs={12} sm={2}>
               <div className={Styles.activityItem}>
                 <Image
                   src="/images/about/cto.svg"
@@ -103,7 +103,7 @@ export default () => (
                 <h6>Jhon Doe</h6>
               </div>
             </Col>
-            <Col xs={2}>
+            <Col xs={12} sm={2}>
               <div className={Styles.activityItem}>
                 <Image
                   src="/images/about/cmo.svg"
@@ -114,7 +114,7 @@ export default () => (
                 <h6>Jhon Doe</h6>
               </div>
             </Col>
-            <Col xs={2}>
+            <Col xs={12} sm={2}>
               <div className={Styles.activityItem}>
                 <Image
                   src="/images/about/cfo.svg"
