@@ -1,3 +1,4 @@
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -11,11 +12,11 @@ export default function Footer(){
                 <div className={Styles.containerFooter}>
                     <Container fluid>
                         <Row>
-                            <Col xs="6" className={Styles.ready}>
+                            <Col xs={6} className={Styles.ready}>
                                 <h1>Ready to improve your Startup?</h1>
                                 <h5>Let's join us!</h5>
                             </Col>
-                            <Col xs="6" >
+                            <Col xs={6} >
                                 <div className={Styles.register}>
                                     <h5>Register Now!</h5>
                                 </div>
@@ -31,17 +32,25 @@ export default function Footer(){
                     <h4>Telkom University</h4>
                     <br/>
                     <div className={Styles.contactInfo}>
-                        <Link href="#" >
-                            <Image className={Styles.medsos} src="/images/footer/discord.svg" width={60} height={60}/>
+                        <Link href={"#"} >
+                            <a>
+                                <Image className={Styles.medsos} src="/images/footer/discord.svg" width={60} height={60}/>
+                            </a>
                         </Link>
-                        <Link href="#" >
-                            <Image className={Styles.medsos} src="/images/footer/instagram.svg" width={60} height={60}/>
+                        <Link href={"#"} >
+                            <a>
+                                <Image className={Styles.medsos} src="/images/footer/instagram.svg" width={60} height={60}/>
+                            </a>
                         </Link>
-                        <Link href="#" >
-                            <Image className={Styles.medsos} src="/images/footer/facebook.svg" width={60} height={60}/>
+                        <Link href={"#"} >
+                            <a>
+                                <Image className={Styles.medsos} src="/images/footer/facebook.svg" width={60} height={60}/>
+                            </a>
                         </Link>
-                        <Link href="#" >
-                            <Image className={Styles.medsos} src="/images/footer/linkedin.svg" width={60} height={60}/>
+                        <Link href={"#"} >
+                            <a>
+                                <Image className={Styles.medsos} src="/images/footer/linkedin.svg" width={60} height={60}/>
+                            </a>
                         </Link>
                     </div>
                     <br/>
