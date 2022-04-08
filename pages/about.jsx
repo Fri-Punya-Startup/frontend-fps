@@ -10,7 +10,12 @@ const activityItem = 188;
 export default () => (
   <React.Fragment>
     <Navbar />
-    <Container fluid>
+    {/* <Container fluid> */}
+      <div className={Styles.header}>
+        <div className={Styles.container}>
+        <h1>About Us</h1>
+        </div>
+      </div>
       <div className={Styles.about}>
         <h2>
           <span>|</span> Our Story
@@ -129,7 +134,7 @@ export default () => (
           </Row>
         </div>
       </div>
-    </Container>
+    {/* </Container> */}
     <Footer />
   </React.Fragment>
 );
